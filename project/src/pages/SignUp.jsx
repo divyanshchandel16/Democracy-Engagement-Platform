@@ -22,7 +22,7 @@ const SignUp = () => {
     if (password.length < 6) return "Password must be at least 6 characters";
     return "";
   };
-
+  // validation
   const handleSubmit = (e) => {
     e.preventDefault();
     const validationError = validate();
